@@ -26,7 +26,6 @@
 
 - **SQL** (PostgreSQL синтаксис)
 - **Git** для контроля версий
-- **Markdown** для документации
 
 ## 📁 Структура проекта
 sql-scripts/
@@ -40,8 +39,9 @@ sql-scripts/
 ```bash
 git clone https://github.com/TimRayX/sql-scripts.git
 cd sql-scripts
-
-2.Запустите скрипты в вашей СУБД:
+```
+2. **Запустите скрипты в вашей СУБД:**
+```bash
 psql -U username -d database -f sql_scripts.sql
-
+```
 
